@@ -1,0 +1,26 @@
+.class_clicker, .func_clicker {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    background: lightblue;
+}
+
+.class_clicker {
+    background: tomato;
+}
+
+
+.class_clicker_state, .func_clicker_state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_clickers {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
