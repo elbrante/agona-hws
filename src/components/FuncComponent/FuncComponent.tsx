@@ -12,11 +12,11 @@ const FuncComponent = () => {
             </div>
 
             <div className="button_clickers">
-                <button className={'func_clicker_setState'} onClick={() => {setFuncState(funcState + 1)}}>
+                <button className={'func_clicker_setState'} onClick={() => {setFuncState(funcState => funcState + 1)}}>
                     +1
                 </button>
 
-                <button className={'func_clicker_setState'} onClick={() => {setFuncState(funcState - 1)}}>
+                <button className={'func_clicker_setState'} onClick={() => {setFuncState(funcState => funcState - 1)}}>
                     -1
                 </button>
             </div>
